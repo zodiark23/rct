@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+body{
+  margin-top:-8px;
+}
+
+#header::before{
+  content:' ';
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+   /*background-image:url('https://static.pexels.com/photos/4022/cold-snow-forest-trees.jpeg');*/
+   background-image:url('../img/snow_mountain.jpg');
+   /*background-image:url('../img/bike.jpg');*/
+   min-height: 200px;
+   filter:blur(5px);
+   -webkit-filter:blur(5px);
+   -moz-filter:blur(5px);
+   -o-filter:blur(5px);
+   background-size:cover;
+   background-position-y:-100px;
+   background-repeat: no-repeat;
+}
+#header{
+  position:relative;
+  width:100%;
+  margin:0 auto;
+  min-height:500px;
+  float:left;
+  color:#c55050;
+}
+
+
+#greet{
+  letter-spacing: 0.5em;
+  position:relative;
+  text-transform: uppercase;
+  border:4px solid #c55050;
+  padding:15px;
+  
+  text-align:center;
+  width:70%;
+  max-width:330px;
+  margin: 0 auto;
+  position:relative;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+#greet-msg{
+  width:70%;
+  max-width:320px;
+  margin: 10px auto;
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-style: italic;
+}
+
+#prof-pic{
+  margin: 10px auto;
+  margin-top: 150px;
+  background-image:url('../img/bike.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:120px;
+  height:120px;
+  border-radius:100px;
+}
